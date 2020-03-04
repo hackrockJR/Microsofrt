@@ -1,0 +1,1 @@
+ netsh wlan show profile name=Ssid_name key=clear

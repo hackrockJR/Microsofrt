@@ -1,1 +1,9 @@
+En Microsoft explican el proceso de instalación de esta característica de forma clara y concisa. En primer lugar tendremos que activar el 'Developer mode' en Settings -> Update & security -> For developers.
+
+
+Una vez hecho esto nos vamos a activar una nueva característica de Windows ('Turn Windows Features on or off'), y en la nueva ventana bajamos hasta ver la opción "Windows Subsystem for Linux (Beta)". Al activarla y pinchar en OK aparecerá un mensaje que nos indica que debemos reiniciar nuestro ordenador, por lo que aceptamos para proceder a ese proceso de reinicio.
+
+
+Una vez de nuevo en Windows tendremos que ejecutar un Powershell y una vez dentro escribir 'bash' (sin comillas) y pulsar Enter. Al hacerlo se nos indicará que tenemos que aceptar los términos de licencia de la imagen Ubuntu proporcionada por Canonical, y si lo hacemos el sistema procederá a descargar e instalar esa imagen. Cuando termine el proceso podemos cerrar esa ventana y ya tendremos acceso a esa nueva y singular aplicación llamada "Bash on Ubuntu on Windows".
+
 https://www.xataka.com/aplicaciones/asi-es-usar-la-consola-bash-de-ubuntu-en-windows-10

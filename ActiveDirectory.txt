@@ -1,1 +1,3 @@
 dsquery computer -limit 500 > computers.txt //Exporta la lista de computadoras del AD 
+
+ Invoke-Command -ComputerName "jfajardo" -ScriptBlock {select Get-LocalGroupMember -Name Administradores }
